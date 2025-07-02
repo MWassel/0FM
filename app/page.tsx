@@ -24,10 +24,11 @@ const tracks: Track[] = [
   },
   {
     id: 2,
-    title: "Heartbreak Anniversary",
+    title: "Can't Believe U",
     artist: "0uassel",
-    src: "/music/1 db less finalll  Heartbreak Anniversary - 140 BPM - Cm - No Agony, Markk Aylin.mp3",
-    cover: "",
+    src: "/music/Can't believe u.mp3",
+    cover:
+      "covers/file_00000000d0c061f78991227421906a40_conversation_id=67fc383d-e91c-8003-af1b-c043df532edb&message_id=2f5de7ea-e6ae-4b63-927c-7a7c987d7a81.png",
   },
   {
     id: 3,
