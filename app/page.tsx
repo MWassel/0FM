@@ -22,33 +22,49 @@ const tracks: Track[] = [
     cover:
       "/covers/file_00000000117461f787bb6b4b6b027edf_conversation_id=67fc383d-e91c-8003-af1b-c043df532edb&message_id=435487f0-be1c-4307-91a8-01a0b86c046e.png",
   },
+
   {
     id: 2,
-    title: "Can't Believe U",
+    title: "Music Of The Spheres",
     artist: "0uassel",
-    src: "/music/Can't believe u.mp3",
-    cover:
-      "covers/file_00000000d0c061f78991227421906a40_conversation_id=67fc383d-e91c-8003-af1b-c043df532edb&message_id=2f5de7ea-e6ae-4b63-927c-7a7c987d7a81.png",
-  },
-  {
-    id: 3,
-    title: "Neon Nights",
-    artist: "MyRadio",
-    src: "/placeholder.mp3",
+    src: "/music/Music Of The Spheres.mp3",
     cover: "",
   },
+
+  {
+    id: 3,
+    title: "Heartbreak Anniversary",
+    artist: "0uassel",
+    src: "/music/1 db less finalll  Heartbreak Anniversary - 140 BPM - Cm - No Agony, Markk Aylin.mp3",
+    cover: "",
+  },
+
   {
     id: 4,
-    title: "Cosmic Flow",
-    artist: "MyRadio",
-    src: "/placeholder.mp3",
+    title: "Remembrance",
+    artist: "0uassel",
+    src: "music/Remembrance.mp3",
     cover: "",
   },
   {
     id: 5,
-    title: "Digital Sunset",
-    artist: "MyRadio",
-    src: "/placeholder.mp3",
+    title: "Take My Stress",
+    artist: "0uassel",
+    src: "/music/Take My Stress.mp3",
+    cover: "",
+  },
+  {
+    id: 6,
+    title: "Can't Leave You",
+    artist: "0uassel",
+    src: "/music/Can't Leave You.mp3",
+    cover: "",
+  },
+  {
+    id: 7,
+    title: "Paradise",
+    artist: "0uassel",
+    src: "/music/Paradise.mp3",
     cover: "",
   },
 ];
@@ -160,9 +176,9 @@ export default function MusicRadio() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-6xl font-bold bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent mb-4">
-            &Oslash;-FM
+            &Oslash; FM
           </h1>
-          <p className="text-xl text-gray-400">FM Station</p>
+          {/* <p className="text-xl text-gray-400">By @0uassel</p> */}
         </header>
 
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8">
