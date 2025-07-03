@@ -25,46 +25,77 @@ const tracks: Track[] = [
 
   {
     id: 2,
-    title: "Music Of The Spheres",
+    title: "Olympusc",
     artist: "0uassel",
-    src: "/music/Music Of The Spheres.mp3",
-    cover: "",
+    src: "/music/Olympusc.mp3",
+    cover: "/covers/Olympusc.png",
   },
 
   {
     id: 3,
-    title: "Heartbreak Anniversary",
+    title: "Music Of The Spheres",
     artist: "0uassel",
-    src: "/music/1 db less finalll  Heartbreak Anniversary - 140 BPM - Cm - No Agony, Markk Aylin.mp3",
-    cover: "",
+    src: "/music/Music Of The Spheres.mp3",
+    cover: "/covers/spheres.png",
   },
 
   {
     id: 4,
-    title: "Remembrance",
+    title: "Heartbreak Anniversary",
     artist: "0uassel",
-    src: "music/Remembrance.mp3",
+    src: "/music/1 db less finalll  Heartbreak Anniversary - 140 BPM - Cm - No Agony, Markk Aylin.mp3",
+    cover: "/covers/heartbreak.png",
+  },
+
+  {
+    id: 5,
+    title: "Can't believe u",
+    artist: "0uassel",
+    src: "/music/Can't believe u.mp3",
+    cover: "/covers/Cant believe u.png",
+  },
+
+  {
+    id: 6,
+    title: "Lustfulness",
+    artist: "0uassel, Ediba Deville",
+    src: "music/lustfulness.mp3",
     cover: "",
   },
   {
-    id: 5,
+    id: 7,
     title: "Take My Stress",
     artist: "0uassel",
     src: "/music/Take My Stress.mp3",
     cover: "",
   },
   {
-    id: 6,
-    title: "Can't Leave You",
+    id: 8,
+    title: "Don´t Go",
     artist: "0uassel",
-    src: "/music/Can't Leave You.mp3",
+    src: "/music/Don´t Go.mp3",
     cover: "",
   },
   {
-    id: 7,
+    id: 9,
     title: "Paradise",
     artist: "0uassel",
     src: "/music/Paradise.mp3",
+    cover: "",
+  },
+
+  {
+    id: 10,
+    title: "Remembrance",
+    artist: "0uassel",
+    src: "/music/Remembrance.mp3",
+    cover: "",
+  },
+  {
+    id: 11,
+    title: "Spring",
+    artist: "0uassel, lilgebbi",
+    src: "/music/spring.mp3",
     cover: "",
   },
 ];
