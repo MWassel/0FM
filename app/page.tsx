@@ -20,7 +20,7 @@ const tracks: Track[] = [
     artist: "0uassel",
     src: "music/Shukuru - 99 bpm - A min - ( Sample - Pharoah Sanders Shukuru ) [X] .mp3",
     cover:
-      "/covers/file_00000000117461f787bb6b4b6b027edf_conversation_id=67fc383d-e91c-8003-af1b-c043df532edb&message_id=435487f0-be1c-4307-91a8-01a0b86c046e.png",
+      "/covers/file_00000000117461f787bb6b4b6b027edf_conversation_id=67fc383d-e91c-8003-af1b-c043df532edb&message_id=435487f0-be1c-4307-91a8-01a0b86c046e.webp",
   },
 
   {
@@ -28,7 +28,7 @@ const tracks: Track[] = [
     title: "Olympusc",
     artist: "0uassel",
     src: "/music/Olympusc.mp3",
-    cover: "/covers/Olympusc.png",
+    cover: "/covers/Olympusc.webp",
   },
 
   {
@@ -36,7 +36,7 @@ const tracks: Track[] = [
     title: "Music Of The Spheres",
     artist: "0uassel",
     src: "/music/Music Of The Spheres.mp3",
-    cover: "/covers/spheres.png",
+    cover: "/covers/spheres.webp",
   },
 
   {
@@ -44,7 +44,7 @@ const tracks: Track[] = [
     title: "Heartbreak Anniversary",
     artist: "0uassel",
     src: "/music/1 db less finalll  Heartbreak Anniversary - 140 BPM - Cm - No Agony, Markk Aylin.mp3",
-    cover: "/covers/heartbreak.png",
+    cover: "/covers/heartbreak.webp",
   },
 
   {
@@ -52,7 +52,7 @@ const tracks: Track[] = [
     title: "Can't believe u",
     artist: "0uassel",
     src: "/music/Can't believe u.mp3",
-    cover: "/covers/Cant believe u.png",
+    cover: "/covers/Cant believe u.webp",
   },
 
   {
@@ -60,21 +60,21 @@ const tracks: Track[] = [
     title: "Lustfulness",
     artist: "0uassel, Ediba Deville",
     src: "music/lustfulness.mp3",
-    cover: "",
+    cover: "/covers/lustfulness.webp",
   },
   {
     id: 7,
     title: "Take My Stress",
     artist: "0uassel",
     src: "/music/Take My Stress.mp3",
-    cover: "",
+    cover: "/covers/take my stress.webp",
   },
   {
     id: 8,
     title: "Don´t Go",
     artist: "0uassel",
     src: "/music/Don´t Go.mp3",
-    cover: "",
+    cover: "/covers/dont go.webp",
   },
   {
     id: 9,
@@ -219,7 +219,7 @@ export default function MusicRadio() {
             <div className="relative">
               <div className="w-full max-w-md mx-auto aspect-square rounded-3xl overflow-hidden shadow-2xl shadow-black/80 border border-gray-800">
                 <img
-                  src={tracks[currentTrack].cover || "/covers/unknown.png"}
+                  src={tracks[currentTrack].cover || "/covers/unknown.webp"}
                   alt={tracks[currentTrack].title}
                   className="w-full h-full object-cover"
                 />
@@ -320,7 +320,7 @@ export default function MusicRadio() {
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0 border border-gray-700">
                       <img
-                        src={track.cover || "/covers/unknown.png"}
+                        src={track.cover || "/covers/unknown.webp"}
                         alt={track.title}
                         className="w-full h-full object-cover opacity-80"
                       />
