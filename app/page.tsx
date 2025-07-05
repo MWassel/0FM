@@ -81,7 +81,7 @@ const tracks: Track[] = [
     title: "Paradise",
     artist: "0uassel",
     src: "/music/Paradise.mp3",
-    cover: "",
+    cover: "/covers/paradise.webp",
   },
 
   {
@@ -89,14 +89,14 @@ const tracks: Track[] = [
     title: "Remembrance",
     artist: "0uassel",
     src: "/music/Remembrance.mp3",
-    cover: "",
+    cover: "/covers/remembarnce.webp",
   },
   {
     id: 11,
     title: "Spring",
     artist: "0uassel, lilgebbi",
     src: "/music/spring.mp3",
-    cover: "",
+    cover: "/covers/spring.webp",
   },
 ];
 
